@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+th,td{
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-overflow: ellipsis;
+ column-span: 4;
+}
+td.d{
+   width: 600px;
+}
+
+.bord{
+   text-align: center;
+   border: 1px solid black;
+   width: 11%;
+   justify-content: center;
+   margin-left: 40%;
+   margin-top: 10px;
+   border-radius: 50%;
+   height: 15%;
+   padding: 18px;
+   height: 100px;
+   margin-bottom: 10px;
+   background-color: #61dafb;
+}
+
+
+
