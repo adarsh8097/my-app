@@ -6,6 +6,7 @@ const HandleStatics = () => {
   const [month, setMonth] = useState('');
   const [month1, setMonth1] = useState('January');
   const handleStaticsdata = async () => {
+    
     if (!month) return;
     try {
       const response = await fetch(`http://localhost:5000/api/product/statistics?month=${month}`);
